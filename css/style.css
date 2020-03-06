@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Podkova&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.first-display {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/bg-1display.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-container {
+    padding-left: 50px;
+    z-index: 1;
+}
+.logo-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    margin-right: 20px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+.nav-items-list {
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 0;
+       
+}
+li {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 55px;
+    font-family: 'Playfair Display', serif;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+.triangle {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 200px 0 0 200px;
+    border-color: transparent transparent transparent #ffffff;
+}
+.big-triangle {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 70vw 0 0 70vw;
+    border-color: transparent transparent transparent #00000067;
+}
+.right-container {
+    margin-left: auto;
+}
+.triangle-for-desc {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40vw 40vw 0;
+    border-color: transparent #fafafa transparent transparent;
+}
+.promo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: end;
+    width: 500px;
+}
+.promo h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    text-align: right;
+}
+.promo h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3rem;
+    text-align: right;
+}
+.promo-desc {
+    width: 180px;
+    margin-left: auto;
+    font-family: 'Podkova', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+}
+.promo a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Podkova', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+}
+.promo a span {
+    margin-right: 15px;
+}
+.item-card {
+    display: grid;
+    width: 254px;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
+.item-img {
+    width: 254px;
+    height: 169px;
+    background-image: url(../assets/item-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;
+    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-end: auto;
+}
+.item-title {
+    color: #ffffff;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 57.7073px;
+    position: relative;
+    right: 57px;
+    top: 40px;
+}
+.item-icon-car {
+    position: relative;
+    top: 40px;
+    right: 46px;
+    z-index: 20;
+}
+.item-triangle img {
+    display: inline-block;
+    position: relative;
+    left: 211px;
+    top: -10px;
+}
+.item-promo {
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    width: 185px;
+    color: #FFFFFF;
+    position: relative;
+    top: -20px;
+}
+.item-desc {
+    width: 242px;
+    margin-left: auto;
+}
+.item-desc p {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+.item-btn {
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
